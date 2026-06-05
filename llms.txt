@@ -1,0 +1,76 @@
+# Apache OpenDAL™: One Layer, All Storage.
+
+> OpenDAL (/ˈoʊ.pən.dæl/, pronounced "OH-puhn-dal") is an Open Data Access Layer that enables seamless interaction with diverse storage services.
+
+OpenDAL's development is guided by its vision of One Layer, All Storage and its core principles: Open Community, Solid Foundation, Fast Access, Object Storage First, and Extensible Architecture. Read the explained vision at OpenDAL Vision.
+
+## Table of Contents
+
+### Docs
+
+- [One Layer, All Storage | Apache OpenDAL™](https://opendal.apache.org/): Apache OpenDAL™ is an Open Data Access Layer that gives every language a unified, zero-cost way to access object storage, file systems, cloud SaaS, databases, protocols and key-value services.
+- [Welcome to Apache OpenDAL™ | Apache OpenDAL™](https://opendal.apache.org/docs/): OpenDAL represents Open Data Access Layer. Our vision is One Layer, All Storage.
+- [Apache OpenDAL™ Downloads | Apache OpenDAL™](https://opendal.apache.org/download/): The official Apache OpenDAL releases are provided as source artifacts.
+- [Core | Apache OpenDAL™](https://opendal.apache.org/docs/core/)
+- [Vision | Apache OpenDAL™](https://opendal.apache.org/docs/vision/): Charter
+- [Apps migration guide | Apache OpenDAL™](https://opendal.apache.org/docs/apps/migration/): This repository no longer maintains the applications Oli and Ofs.
+- [Oay (removed) | Apache OpenDAL™](https://opendal.apache.org/docs/apps/oay/): This tool has been removed from the Apache OpenDAL repository.
+- [Ofs (moved) | Apache OpenDAL™](https://opendal.apache.org/docs/apps/ofs/): Ofs has moved to a separate repository and is no longer maintained in this repository.
+- [Oli (moved) | Apache OpenDAL™](https://opendal.apache.org/docs/apps/oli/): Oli has moved to a separate repository and is no longer maintained in this repository.
+- [C 🚧 | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/c/)
+- [Cpp 🚧 | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/cpp/)
+- [D 🚧 | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/d/)
+- [Dart 🚧 | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/dart/)
+- [Dotnet 🚧 | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/dotnet/)
+- [Go | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/go/)
+- [Haskell 🚧 | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/haskell/)
+- [Java | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/java/)
+- [Lua 🚧 | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/lua/)
+- [Node.js | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/nodejs/)
+- [OCaml 🚧 | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/ocaml/)
+- [PHP 🚧 | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/php/)
+- [Python | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/python/)
+- [Ruby | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/ruby/)
+- [Swift 🚧 | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/swift/)
+- [Zig 🚧 | Apache OpenDAL™](https://opendal.apache.org/docs/bindings/zig/)
+- [Applications Overview | Apache OpenDAL™](https://opendal.apache.org/docs/category/applications/)
+- [Bindings Overview | Apache OpenDAL™](https://opendal.apache.org/docs/category/bindings/)
+- [Integrations Overview | Apache OpenDAL™](https://opendal.apache.org/docs/category/integrations/)
+- [Cloud Filter (removed) | Apache OpenDAL™](https://opendal.apache.org/docs/integrations/cloud_filter/): This integration has been removed from the Apache OpenDAL repository.
+- [Dav Server | Apache OpenDAL™](https://opendal.apache.org/docs/integrations/dav_server/)
+- [Fuse3 (removed) | Apache OpenDAL™](https://opendal.apache.org/docs/integrations/fuse3/): This integration has been removed from the Apache OpenDAL repository.
+- [Object Store | Apache OpenDAL™](https://opendal.apache.org/docs/integrations/object_store/)
+- [Parquet | Apache OpenDAL™](https://opendal.apache.org/docs/integrations/parquet/)
+- [Spring | Apache OpenDAL™](https://opendal.apache.org/docs/integrations/spring/)
+- [Unftp Sbe | Apache OpenDAL™](https://opendal.apache.org/docs/integrations/unftp_sbe/)
+
+### Blog
+
+- [reqsign is now Apache OpenDAL Reqsign](https://opendal.apache.org/blog/2025/09/15/apache-opendal-reqsign/): I’m happy to announce that my personal project has been donated to the ASF and accepted by the Apache OpenDAL PMC as a subproject: Apache OpenDAL Reqsign. This means Reqsign will now be governed by the Apache OpenDAL PMC under the Apache Way.
+- [Apache OpenDAL 2025 Roadmap: Perfecting Production Adoption](https://opendal.apache.org/blog/2025/03/01/2025-roadmap/): Hi everyone, long time no see. Although we have been actively developing OpenDAL and consistently releasing updates, we haven’t provided a clear overview of where OpenDAL is heading. This post aims to address that. Here, we will discuss OpenDAL's current position and the future directions we are moving toward.
+- [Apache OpenDAL™ Beijing Meetup 1st](https://opendal.apache.org/blog/2024/09/09/apache-opendal-meetup-beijing-1st/): Hello, everyone!
+- [Apache OpenDAL™ participates in Open Source Promotion Plan 2024](https://opendal.apache.org/blog/apache-opendal-participates-in-ospp-2024/): Hello, everyone!
+- [Apache OpenDAL™ participates in Google Summer of Code 2024](https://opendal.apache.org/blog/apache-opendal-participates-in-gsoc-2024/): Hello, everyone!
+- [Apache OpenDAL™ is now Graduated](https://opendal.apache.org/blog/apache-opendal-graduated/): Hello, everyone! I'm happy to announce that Apache OpenDAL™ has graduated from the Apache Incubator to become a Top-Level Project of the Apache Software Foundation.
+- [OwO #1: The v0.40 Release](https://opendal.apache.org/blog/owo-1/): OwO (Outcome, Working, Outlook) is an Apache OpenDAL™ release blog series, where we share the current work status and future plans.
+- [Apache OpenDAL™ Internal: Data Reading](https://opendal.apache.org/blog/how-opendal-read-data/): The first article will discuss OpenDAL's most commonly used data reading function. I will start from the outermost interface and then gradually unfold according to the calling sequence of OpenDAL.
+- [Apache OpenDAL™: Access Data Freely](https://opendal.apache.org/blog/opendal-access-data-freely/): If you're committed to building cloud-native, cross-cloud-first applications and services, or you want to support configurable storage backends to meet complex data access needs, or if you're tired of juggling various SDKs and hoping for a unified abstraction and development experience, Apache OpenDAL™ will be your perfect partner.
+- [Way to Go: OpenDAL successfully entered Apache Incubator](https://opendal.apache.org/blog/opendal-entered-apache-incubator/): On February 27th, 2023, the OpenDAL project achieved a milestone by winning the approval to join the incubator of the Apache Software Foundation (ASF), the world's leading open source software organization. On March 15th, the OpenDAL project was officially transferred to the Apache Software Foundation.
+
+### Community
+
+- [Onboarding](https://opendal.apache.org/community/committers/onboarding): This document primarily serves as a guide for new committers to Apache OpenDAL™.
+- [Request for adding secrets](https://opendal.apache.org/community/committers/request_for_adding_secrets): OpenDAL's behavior tests depend on the secrets stored in 1password.
+- [GSoC Project Proposal Guidance](https://opendal.apache.org/community/events/gsoc-proposal-guide): This document contains a short guide on how to structure your OpenDAL Google Summer of Code (GSoC) project proposal and how to increase the chance of your project proposal being accepted.
+- [OSPP Project Proposal Guidance](https://opendal.apache.org/community/events/ospp-proposal-guide): This document contains a short guide on how to structure your OpenDAL Open Source Promotion Plan (OSPP) project proposal and how to increase the chance of your project proposal being accepted.
+- [Community](https://opendal.apache.org/community/category/committers): Welcome to the Apache OpenDAL™ community!
+- [Maturity Assessment for Apache OpenDAL™](https://opendal.apache.org/community/maturity): The goals of this maturity model are to describe how Apache projects operate in a concise and high-level way, and to provide a basic framework that projects may choose to use to evaluate themselves.
+- [Board reporting](https://opendal.apache.org/community/pmc_members/board-reporting): Apache PMC members are responsible for reporting the status of their projects to the Apache Board of Directors. This page provides guidance on how to prepare and submit reports for Apache OpenDAL™.
+- [Nominate Committer](https://opendal.apache.org/community/pmc_members/nominate-committer): This document mainly introduces how a PMC member nominates a new committer.
+- [Nominate PMC Member](https://opendal.apache.org/community/pmc_members/nominate-pmc-member): This document mainly introduces how a PMC member nominates a new PMC member.
+- [Onboarding](https://opendal.apache.org/community/pmc_members/onboarding): This document primarily serves as a guide for new PMC members to Apache OpenDAL™.
+- [Generate release note](https://opendal.apache.org/community/release/reference/generate_release_note): This document describes how to generate release notes using GitHub:
+- [Setup GPG key](https://opendal.apache.org/community/release/reference/setup_gpg): This section is a brief from the Cryptography with OpenPGP guideline.
+- [Create a release](https://opendal.apache.org/community/release): This document mainly introduces how the release manager
+- [Verify a release candidate](https://opendal.apache.org/community/release/verify): To verify a release candidate, the following checklist could be used:
+- [Security](https://opendal.apache.org/community/security): The Apache Software Foundation takes a rigorous stance on eliminating security issues in its software projects. Likewise, Apache OpenDAL™ is also vigilant and takes security issues related to its features and functionality into the highest consideration.
